@@ -48,8 +48,8 @@ public class Main {
 
 
         Customer customer = new Customer();
-        Customer customer1= new IndividualCustomer();
-        Customer customer2= new CorporateCustomer();
+        Customer CustomeR1= new IndividualCustomer();
+        Customer CustomeR2= new CorporateCustomer();
 
         Customer customers[] = {individualCustomer,corporateCustomer};
 
