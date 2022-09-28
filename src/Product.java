@@ -4,7 +4,7 @@ public class Product {
    private  double unitPrice;
    private double discount;
    private  String imageUrl;
-   private  double unitInStock;
+   private  int unitInStock;
 
    public String getName() {
       return name;
@@ -38,7 +38,7 @@ public class Product {
       this.imageUrl = imageUrl;
    }
 
-   public double getUnitInStock() {
+   public int getUnitInStock() {
       return unitInStock;
    }
 
